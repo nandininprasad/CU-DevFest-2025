@@ -1,0 +1,10 @@
+websockets
+asyncio
+requests
+os
+dotenv
+datetime
+pydub
+io
+ffmpeg
+ffprobe
