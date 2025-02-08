@@ -1,0 +1,109 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: url('CU-DevFest-2025/frontend/gordan.jpg') no-repeat center center/cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.navigation a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.content-overlay h1 {
+    font-size: 48px;
+    color: #ff6600;
+}
+
+.content-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.timer-selection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.timer-option {
+    margin-bottom: 10px;
+}
+
+.timer-option input {
+    margin-right: 10px;
+}
+
+.timer-option label {
+    font-size: 18px;
+}
+
+.start-button, .log-button {
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.start-button:hover, .log-button:hover {
+    background-color: #e55900;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+}
+
+.footer a {
+    color: #ff6600;
+    text-decoration: none;
+}
