@@ -81,6 +81,7 @@ async def handle_request(text, model, voice="GordonRamsay"):
 
                 if data.get("type") == "start":
                     print(f"Processing started. Request ID: {data.get('request_id')}")
+                    print(data)
 
                 elif data.get("type") == "end":
                     print(f"Processing ended. Request ID: {data.get('request_id')}")
