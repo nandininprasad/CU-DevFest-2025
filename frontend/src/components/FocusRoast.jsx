@@ -140,7 +140,7 @@ function FocusRoast() {
       // 5) Wait 5s & repeat
       setTimeout(() => {
         if (isCapturingRef.current) captureAndSendImages();
-      }, 5000);
+      }, 3000);
     }
   }, [coach]);
 
