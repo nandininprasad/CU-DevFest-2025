@@ -1,0 +1,146 @@
+/* body {
+    background-image: url('../assets/page2_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.FocusRoastImage {
+    background-image: url("../assets/focus_roast_background.svg");
+    position: absolute;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+
+.MatchaModeImage {
+    background-image: url("../assets/matcha_mode_background.svg");
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 20%;
+    height: 10%;
+}
+
+.FocusRoastImage {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.LandingImage {
+    margin-bottom: 0;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.MatchaMode {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+
+.secondpage {
+    background-image: url("../assets/page2_background.svg");
+    padding: 10%;
+
+}
+
+#chooseYourCoach {
+    font-family: Montserrat;
+    color: #765442;
+}
+
+.coachSelect {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+    font-family: "Montserrrat";
+    width: 80%;
+}
+
+.coachSelect button {
+    background-color: #eeecde;   /* Brown background */
+    color: #000000;               /* White text for contrast */
+    padding: 10px 20px;        /* Spacing around text */
+    border-radius: 8px;        /* Rounded corners */
+    display: inline-block;     /* Ensures it behaves like a button */
+    cursor: pointer;           /* Cursor changes on hover */
+    text-decoration: none;     /* Remove any text underline if linked */
+    margin: 0;                 /* Remove default <h2> margin */
+    font-family: "Montserrat"; 
+    border-width: 0;
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+#chooseYourCoach {
+    background-color: #765442;   /* Brown background */
+    color: #ffe5b6; 
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 5%;
+                  /* White text for contrast */        /* Spacing around text */
+    border-radius: 8px;        /* Rounded corners */
+    display: inline-block;     /* Ensures it behaves like a button */
+    cursor: pointer;           /* Cursor changes on hover */
+    text-decoration: none;     /* Remove any text underline if linked */
+    margin: 0;                 /* Remove default <h2> margin */
+    font-family: "Montserrat";   /* Use Montserrat font */
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+.startStopButtons {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+    font-family: "Montserrrat";
+    width: 60%;
+}
+
+.startStopButtons button {
+    background-color: #eeecde;   /* Brown background */
+    color: #000000;               /* White text for contrast */
+    padding: 10px 20px;        /* Spacing around text */
+    border-radius: 8px;        /* Rounded corners */
+    display: inline-block;     /* Ensures it behaves like a button */
+    cursor: pointer;           /* Cursor changes on hover */
+    text-decoration: none;     /* Remove any text underline if linked */
+    margin: 0;                 /* Remove default <h2> margin */
+    font-family: "Montserrat"; 
+    border-width: 0;
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 50%;
+}

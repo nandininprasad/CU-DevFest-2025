@@ -1,8 +1,4 @@
 .env
-<<<<<<< HEAD
-
-=======
 .DS_Store
 *.mp3
 .gitingore
->>>>>>> cb18627955add3ee660526030dcebf3ff136175e
