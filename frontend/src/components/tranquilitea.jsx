@@ -1,10 +1,27 @@
-function tranquilitea() {
-    return (
-        <div>
-            <h1>TranquiliTea</h1>
-            <p>TranquiliTea is a calming tea that helps you relax and unwind. It is perfect for those moments when you need to take a break and destress. TranquiliTea is made with a blend of chamomile, lavender, and peppermint, which are known for their calming properties. The tea has a light and refreshing flavor that is perfect for sipping on a lazy afternoon or before bed. So sit back, relax, and enjoy a cup of TranquiliTea.</p>
-        </div>
-    );
-}
+    import React, { useEffect } from 'react';
+    import dreamJournalImage from '../assets/dream_journal.svg';
+    import traquiliteaBackground from '../assets/tranquility_landing.svg';
+    
 
-export default tranquilitea;
+    function Tranquilitea() {
+        
+
+
+        
+        // window.location.assign("http://localhost:8502");
+
+        return (
+            <div className="TranquiliteaMain">
+                <img src={traquiliteaBackground} className="TranquiliteaBackground" alt="tranquilitea_background" />
+                
+                            <img src={dreamJournalImage} className="DreamJournalImage" id="dream-journal-img" alt="dream_journal" />
+                            <div className='Fatty' style={{padding: '10px', textAlign: 'center'}} onClick={() => window.location.assign("http://localhost:8502")}>
+                    </div>            
+
+                    
+                
+            </div>
+        );
+    }
+
+    export default Tranquilitea;

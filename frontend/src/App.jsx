@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import StudyKitchen from './components/StudyKitchen';
 import LandingPage from './components/LandingPage';
 import FocusRoast from './components/FocusRoast';
-import TranquiliTea from './components/tranquilitea';
+import TranquiliTea from './components/Tranquilitea';
 import "./App.css";
 
 function App() {
