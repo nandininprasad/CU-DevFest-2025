@@ -6,5 +6,3 @@ dotenv
 datetime
 pydub
 io
-ffmpeg
-ffprobe
