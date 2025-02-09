@@ -10,30 +10,31 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    background: url('CU-DevFest-2025/frontend/gordan.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background: url('../assets/gordan.jpg') no-repeat center center/cover;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2vh 5vw;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1vh);
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ff6600;
 }
 
 .navigation a {
-    margin: 0 15px;
+    margin: 0 2vw;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .main-content {
@@ -41,53 +42,53 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5vh 5vw;
     text-align: center;
 }
 
 .content-overlay {
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
+    padding: 2vh 3vw;
+    border-radius: 1vh;
+    backdrop-filter: blur(1vh);
 }
 
 .content-overlay h1 {
-    font-size: 48px;
+    font-size: 3rem;
     color: #ff6600;
 }
 
 .content-overlay p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
 }
 
 .timer-selection {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .timer-option {
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 
 .timer-option input {
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 .timer-option label {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .start-button, .log-button {
-    padding: 10px 20px;
-    margin: 5px 0;
+    padding: 1vh 2vw;
+    margin: 1vh 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5vh;
     background-color: #ff6600;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -97,10 +98,10 @@ body, html {
 
 .footer {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 1vh;
     text-align: center;
-    font-size: 14px;
-    backdrop-filter: blur(10px);
+    font-size: 0.9rem;
+    backdrop-filter: blur(1vh);
 }
 
 .footer a {

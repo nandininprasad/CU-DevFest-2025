@@ -41,6 +41,9 @@ voice_dict = {
 
 async def handle_request(text, model, voice="GordonRamsay"):
     # takes input text, passes it to tts model, receives audio file over websocket
+
+    if len(sys.argv) < 3:
+        raise ValueError("Enter the destination path to store the mp3")
     
     global response
 
@@ -91,10 +94,10 @@ async def handle_request(text, model, voice="GordonRamsay"):
         audio_segment = AudioSegment.from_file(io.BytesIO(audio_data), format="mp3")
 
         # Save or play the audio
-        audio_segment.export("output.mp3", format="mp3")
+        audio_segment.export(sys.argv[2], format="mp3")
 
         # Play the audio
-        play(audio_segment)
+        # play(audio_segment)
         
 
 model = "PlayDialog"
